@@ -1,2 +1,2 @@
-# WDWB
-Guess which day of the week Will be any date in the future
+# WD_HB-WB
+Guess which day of the week have been/will be any date
