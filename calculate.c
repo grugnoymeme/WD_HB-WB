@@ -11,7 +11,7 @@ int calculateDayOfWeek(int day, int month, int year) {
     
     int h = (day + 13 * (month + 1) / 5 + yearOfCentury + yearOfCentury / 4 + century / 4 + 5 * century) % 7;
     
-    // Convert the result to the corresponding day of the week (0 = Saturday, 1 = Sunday, ..., 6 = Friday)
+    // Convert the result to the corresponding day of the week (0 = Saturday, 1 = Sunday, 2 = Monday, 3 = Tuesday, 4 = Wednesday, 5 = Thursday, 6 = Friday)
     return (h + 5) % 7;
 }
 
